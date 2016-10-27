@@ -30,3 +30,11 @@ node --version
 * event loop:  applications act on events
 * error-handling: instead of a try-catch block you have to check for errors in the callback
 * no return value: async functions don't return values, but values will be passed to the callbacks
+
+
+## Debugging
+* debug module: enable third party modules to log to console
+* DEBUG=slackbots* node app.js: enables slackbots module to write debug logs
+* node debug app.js: built in debugger for node
+* debugger: adds breakpoint to application
+* watch('expression'): create a watch expression to be printed on each breakpoint
