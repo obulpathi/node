@@ -11,3 +11,6 @@ node --version
 ## Notes
 * index.js is the starting point
 * node index.js
+* package.json: equvalent of setup.py
+* npm init: generates package.json
+* package.json['scripts']: npm commands like test, start, build, ... 
