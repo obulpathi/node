@@ -25,4 +25,8 @@ node --version
 * importing modules: let bot = require('slackbots')
 * package.json['scripts']: npm custom commands build, howdy, ...
 * npm run <custom-command>
-*
+
+## Asynchronous Programming
+* event loop:  applications act on events
+* error-handling: instead of a try-catch block you have to check for errors in the callback
+* no return value: async functions don't return values, but values will be passed to the callbacks
